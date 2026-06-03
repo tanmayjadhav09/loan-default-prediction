@@ -17,3 +17,8 @@ Tanmay Jadhav
 - dbt + DuckDB
 - Great Expectations
 - Delta Lake
+## Dataset
+Download the dataset from Kaggle:
+https://www.kaggle.com/datasets/brycecf/give-me-some-credit-dataset
+
+Rename cs-training.csv to loan_data.csv and place it in the data/ folder.
