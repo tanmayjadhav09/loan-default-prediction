@@ -1,0 +1,11 @@
+XGBoost Top Features,XGBoost Score,RF Top Features,RF Score
+CreditUtilCategory_Medium,0.2729,RevolvingUtilizationOfUnsecuredLines,0.2738
+CreditUtilCategory_Very High,0.1768,TotalTimesLate,0.1502
+CreditUtilCategory_High,0.144,AgeGroup_Senior,0.0843
+AgeGroup_Young,0.0773,CreditUtilCategory_Medium,0.0833
+AgeGroup_Elderly,0.0754,age,0.08
+RevolvingUtilizationOfUnsecuredLines,0.0548,AgeGroup_Elderly,0.0592
+AgeGroup_Middle,0.0441,AgeGroup_Middle,0.0551
+AgeGroup_Senior,0.0404,NumberOfTime30-59DaysPastDueNotWorse,0.0393
+TotalTimesLate,0.0342,CreditUtilCategory_High,0.0387
+NumberOfTimes90DaysLate,0.0145,AgeGroup_Young,0.0342
