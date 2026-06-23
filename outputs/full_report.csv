@@ -1,0 +1,7 @@
+Metric,Random Forest,XGBoost
+ROC-AUC (single split),0.833,0.8154
+ROC-AUC (5-fold CV),0.9636,0.9785
+CV Std Deviation,0.0004,0.0005
+Default Recall,0.5009,0.2801
+Default F1,0.387,0.3303
+Accuracy,0.8897,0.9211
