@@ -28,3 +28,18 @@ Happy modeling!
 [0m16:53:53.146748 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FF446BBB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FF458E0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025FF324F8A0>]}
 [0m16:53:53.147278 [debug] [MainThread]: Flushing usage events
 [0m16:53:54.417953 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:02:56.530945 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000250098782F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025006D5DA90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002500A0CF610>]}
+
+
+============================== 17:02:56.535953 | 2e0b1d6c-f4e6-400e-a718-ea257d3b3b04 ==============================
+[0m17:02:56.535953 [info ] [MainThread]: Running with dbt=1.11.11
+[0m17:02:56.536605 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt seed', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:02:56.537201 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Dell\Desktop\loan-default-prediction\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:02:56.538060 [debug] [MainThread]: Command `dbt seed` failed at 17:02:56.537928 after 0.22 seconds
+[0m17:02:56.538474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002500B8F5E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002500B919EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002500B9A4D10>]}
+[0m17:02:56.538957 [debug] [MainThread]: Flushing usage events
+[0m17:02:57.792619 [debug] [MainThread]: An error was encountered while trying to flush usage events

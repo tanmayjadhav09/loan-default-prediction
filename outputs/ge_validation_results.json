@@ -1,0 +1,9 @@
+{
+  "run_date": "2026-07-11 18:17:35",
+  "dataset": "loan_data_clean.csv",
+  "total_rows": 120262,
+  "total_expectations": 10,
+  "passed": 10,
+  "failed": 0,
+  "overall_status": "PASS"
+}

@@ -5,3 +5,4 @@ __pycache__/
 *.pkl
 .ipynb_checkpoints/
 .env
+venv310/ 
